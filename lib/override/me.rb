@@ -1,5 +1,3 @@
-require "override/me/version"
-
 module Override
   class Me
     def perform
