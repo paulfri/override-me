@@ -1,10 +1,9 @@
 lib = File.expand_path("lib", __dir__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "override/me/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "override-me"
-  spec.version       = Override::Me::VERSION
+  spec.version       = '0.1.1'
   spec.authors       = ["Paul Friedman"]
   spec.email         = ["paulrfri@gmail.com"]
 
