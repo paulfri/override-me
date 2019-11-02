@@ -1,8 +1,11 @@
 require "override/me/version"
 
 module Override
-  module Me
+  class Me
     class Error < StandardError; end
-    # Your code goes here...
+
+    def perform
+      puts "I'm the original implementation!"
+    end
   end
 end
